@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Feedback</title>
+</head>
+<body>
+	<div class = "input_group">
+		<h3>Add Your Items</h3>
+	</div><br><br>
+	<form method="post" action="additem.php" enctype="multipart/form-data"> 
+		<select name="category">
+			<option value="">Select Any One</option>
+			<option name="rev" value="">Bus</option>
+			<option name="rev" value="">Cars</option>
+			<option name="rev" value="">Bikes</option>
+			
+		</select><br><br>
+		
+				Product Name<input type="text" name="name"><br><br>
+                Description<textarea name="description"></textarea><br><br>
+                Initialvalue<input type="text" name="init_value"><br><br>
+                Photo<input type="file" name="photo" id="photo"><br><br>
+                <input type="submit" name="insert" value="Click to Submit">	
+	
+		
+	</form>
+    
+	
+</body>
+</html>
